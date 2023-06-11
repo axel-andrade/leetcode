@@ -11,7 +11,13 @@ import (
 func runProblem(problemNum int) {
 	// Mapeie os números dos problemas para os diretórios correspondentes
 	problems := map[int]string{
-		20: "20_valid_parentheses",
+		20:  "20_valid_parentheses",
+		28:  "28_implement_strstr",
+		58:  "58_length_of_last_word",
+		66:  "66_plus_one",
+		125: "125_valid_palindrome",
+		136: "136_single_number",
+		217: "217_contains_duplicated",
 		// Adicione mais mapeamentos aqui conforme necessário
 	}
 
